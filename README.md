@@ -1,4 +1,8 @@
 # Coconut-Leaf-Disease-Detection
 Coconut Leaf Disease Detection using YOLOv11
-Dataset:https://data.mendeley.com/datasets/gh56wbsnj5/1
-AI MODEL -best.pt:https://drive.google.com/file/d/1cnEUFtNhkLWpGPiFvChhpr4fE9AqAPAl/view?usp=sharing
+Coconut cultivation is an important component of tropical agriculture, providing food, oil, and industrial products while supporting rural livelihoods. However, productivity is often reduced by foliar diseases such as bud rot, leaf rot, grey leaf spot, and stem bleeding, which impair photosynthesis and plant health. Conventional detection methods depend on expert inspection, making them time-consuming, labor-intensive, and impractical for large-scale plantations.
+Recent advances in deep learning and computer vision have enabled automated solutions for plant disease diagnosis. The YOLO (You Only Look Once) family of models has become widely used due to its real-time performance and high accuracy. The latest version, YOLOv11, incorporates architectural improvements that enhance detection precision, making it well-suited for agricultural disease monitoring.
+This work proposes a coconut leaf disease detection framework based on YOLOv11, integrated into a Django web application for practical deployment. The system allows users to upload coconut leaf images, which are analyzed in real time to detect disease types with bounding boxes and confidence scores. This provides farmers and agricultural experts with quick, reliable diagnosis, reducing reliance on manual inspection and enabling timely intervention.
+The model was trained and evaluated on a benchmark dataset covering multiple coconut diseases. Performance metrics including precision, recall, F1-score, and mean Average Precision (mAP) confirmed its robustness, achieving consistently high detection accuracy. Compared to YOLOv8, the YOLOv11-based system offers superior efficiency and usability. Future work may extend the framework to mobile platforms and additional crop types, fostering wider adoption of AI-driven precision agriculture.
+
+
